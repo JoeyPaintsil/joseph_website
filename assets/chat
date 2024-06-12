@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    background-color: #fff;
+    border: 2px solid transparent;
+}
+
+.hello-world {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00796b;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.scroll-down {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ff5722;
+    border-radius: 5px;
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.scroll-down img {
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.container:before, .container:after, .container > div:before, .container > div:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+}
+
+.container:before {
+    top: -2px;
+    left: -2px;
+    border-width: 2px 0 0 2px;
+}
+
+.container:after {
+    top: -2px;
+    right: -2px;
+    border-width: 2px 2px 0 0;
+}
+
+.container > div:before {
+    bottom: -2px;
+    left: -2px;
+    border-width: 0 0 2px 2px;
+}
+
+.container > div:after {
+    bottom: -2px;
+    right: -2px;
+    border-width: 0 2px 2px 0;
+}
