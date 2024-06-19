@@ -149,8 +149,8 @@ html, body {
     .scroll-button {
         padding: 6px 12px;
         font-size: 12px;
-        margin-top:20%;
-        transform: scale(1.25);
+        margin-top:30%;
+        
         font-weight: bold;
         color: white;
         background-color: var(--accent-color);
@@ -158,6 +158,7 @@ html, body {
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease, transform 0.3s ease;
+        transform: scale(1.65);
     }
 
     .main-container{
