@@ -150,9 +150,14 @@ html, body {
 
     }
 
+    .left-container{
+        margin-top:6%;
+    }
+
     .right-container{
         order:1;
         padding:0;
+        margin-top: 4%;
     }
 
     .landing-img{
@@ -174,6 +179,19 @@ html, body {
         transform: scale(2.9);
         transform-origin: center;
         text-align: justify;
+    }
+
+    .name{
+        margin-top:25%;
+    }
+
+    .intro-text{
+        margin-top:40%;
+    }
+
+    .scroll-button{
+        margin-top:20%;
+        transform: scale(1.25);
     }
 
 
