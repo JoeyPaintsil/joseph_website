@@ -35,6 +35,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
+    padding: 1rem;
 }
 
 .main-container {
@@ -45,11 +47,11 @@ html, body {
 }
 
 .main-item {
-    flex: 1;
+    /* flex: 1;
     padding: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .name {
@@ -66,8 +68,11 @@ html, body {
 
 .right-container {
     flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .right-items {
@@ -129,6 +134,7 @@ html, body {
         font-size: 14px;
     }
 
+    
 }
 
 @media (max-width: 480px) {
@@ -136,4 +142,17 @@ html, body {
         padding: 6px 12px;
         font-size: 12px;
     }
+
+    .main-container{
+        display:flex;
+        flex-direction: column;
+        /* background-color: blue; */
+
+    }
+
+    .left-container{
+        order:1;
+    }
+
+
 }
