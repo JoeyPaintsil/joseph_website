@@ -58,7 +58,8 @@ html, body {
 
 .name {
     font-family: 'Playfair Display';
-    color: var(--main-color);
+    /* color: var(--main-color); */
+    color:red;
     font-size: 4.5vw;
     font-weight: bold;
     margin: 10px 0px;
