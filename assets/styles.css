@@ -19,6 +19,7 @@ html, body {
 .hello-world {
     font-family: 'Playfair Display';
     font-size: 1.8vw;
+    color: blue;
 }
 
 .intro-text {
