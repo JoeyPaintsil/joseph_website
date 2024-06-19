@@ -150,9 +150,33 @@ html, body {
 
     }
 
-    .left-container{
+    .right-container{
         order:1;
+        padding:0;
     }
+
+    .landing-img{
+        width: 18rem;
+        max-width:fit-content;
+        height:auto;
+    }
+
+    .intro-text{
+        margin-top:2rem;
+        max-width:6.5rem;
+    }
+
+    .right-texts{
+        max-width:10rem;
+    }
+
+    .right-text{
+        transform: scale(2.9);
+        transform-origin: center;
+        text-align: justify;
+    }
+
+
 
 
 }
