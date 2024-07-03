@@ -9,10 +9,10 @@ body {
     height: 100%;
     
 }
-
+/* 
 html, body {
-    /* height: 100%; */
-}
+    height: 100%;
+} */
 
 .custom-navbar-color {
     background-color: var(--main-color);
@@ -51,14 +51,14 @@ html, body {
     /* height: calc(100vh - 56px); Adjust for navbar height */
     background-color: var(--background-color);
 }
-
+/* 
 .main-item {
-    /* flex: 1;
+    flex: 1;
     padding: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center; */
-}
+    align-items: center;
+} */
 
 .name {
     font-family: 'Dancing Script';
