@@ -115,26 +115,90 @@ html, body {
     margin: 0;
 }
 
-.skills-text {
+.skills-section{
+    background-color:var(--background-color) ;
+}
+
+.skills-text, .projects-text {
     font-size: 3vw;
     font-weight: bold;
     text-align: center;
+    color: var(--main-color);
+    
 }
 
-.skills-section {
+.skills-div {
+    background-color:yellow;
+    width: auto;
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
     background-color: var(--background-color);
     padding: 3vh;
     text-align: center;
+    
+}
+
+.one-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    padding: 1rem;
+    background-color: azure;
+    border-color: var(--main-color)
+
+}
+
+.one-skill:hover {
+    transform: translateY(-5x);
+}
+
+.one-skill ul{
+    list-style-type: none;
+    font: var(--main-font);
+    text-align: left;
+    
+}
+
+.one-skill h3{
+    color: var(--main-color);
+    margin-bottom: 6%;
+}
+#python {
+    height:auto;
+}
+
+
+#gis_survey {
+    height:auto;
+}
+
+
+
+#web_development {
+    height: auto;
+}
+
+.gis-skills{
+    text-align: left;
 }
  
-@media (min-width: 768px) {
-    .skills-section {
+.one-skill li {
+    margin-bottom: 1rem;
+}
+
+.one-skill ul li .fas {
+    margin-right: 8px; /* Adjust the spacing as needed */
+}
+/* @media (min-width: 768px) {
+    .skills-div {
         grid-template-columns: repeat(3, 1fr);
     }
-}
+} */
 
 @media (max-width: 768px) {
     .scroll-button {
